@@ -1,5 +1,5 @@
 # Credit-Card-Financial-Dashboard
-**Credit Card Financial Dashboar:**
+**Credit Card Financial Dashboard:**
 <br>
 **Tool Used:** SQL, Power BI
 <br>
