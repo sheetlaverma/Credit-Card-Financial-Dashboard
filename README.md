@@ -1,29 +1,46 @@
 # Credit Card Financial Dashboard
 
-This repository contains a credit card financial dashboard project built with SQL and Power BI. It is designed to provide weekly, real-time insight into customer behavior, transaction patterns, and overall card performance.
+Credit Card Financial Dashboard is a data analytics project built with SQL and Power BI. The goal is to turn raw credit card and customer data into a weekly dashboard that helps track performance, identify trends, and support reporting.
 
-## Project Summary
+## Overview
 
-The dashboard combines transaction and customer data to help identify trends, monitor performance, and support data-driven decisions. The focus is on turning raw financial data into clear reporting for business and analytical use.
+The project combines transaction data with customer data to build a financial view of card activity. It is intended for analysis, monitoring, and presentation rather than application development.
 
-## Tools Used
+## What’s Included
 
-- SQL for data extraction, transformation, and preparation
-- Power BI for dashboard creation and visual analysis
+- SQL logic for preparing the reporting dataset
+- CSV source files for credit card and customer data
+- PDF report exports for customer and transaction analysis
+- Dashboard-ready data for Power BI or similar BI tools
 
-## Repository Files
+## Repository Contents
 
-- `SQL Query - Financial Dashboard Data.sql` - SQL script used to prepare the dashboard dataset
-- `credit_card.csv` - credit card transaction data
-- `customer.csv` - customer master data
-- `cc_add.csv` - supporting credit card data
-- `cust_add.csv` - supporting customer data
-- `Credit_Card_Transaction_Report.pdf` - transaction-level report output
-- `Credit_Card_Customer_Report.pdf` - customer-level report output
+- `SQL Query - Financial Dashboard Data.sql` - SQL script used to prepare the dataset
+- `credit_card.csv` - core credit card transaction data
+- `customer.csv` - core customer data
+- `cc_add.csv` - additional credit card records
+- `cust_add.csv` - additional customer records
+- `Credit_Card_Transaction_Report.pdf` - transaction-focused report output
+- `Credit_Card_Customer_Report.pdf` - customer-focused report output
 
-## Dashboard Highlights
+## Key Dashboard Areas
 
-- Weekly credit card performance tracking
-- Transaction volume and spending pattern analysis
-- Customer segmentation and behavior review
-- Reporting support for monitoring key metrics over time
+- Spending and transaction trends
+- Customer behavior and segmentation
+- Weekly performance monitoring
+- Reporting support for business review
+
+## Suggested Workflow
+
+1. Review the SQL script to understand how the data is prepared for analysis.
+2. Load the CSV files into your database or BI environment.
+3. Use the prepared dataset to build visuals and performance summaries.
+4. Compare your outputs with the PDF reports included in the repository.
+
+## Project Notes
+
+This repository currently focuses on the data inputs and report artifacts behind the dashboard. If you want to extend it, useful additions would be the Power BI source file, dashboard screenshots, a data dictionary, or a short explanation of the metrics used.
+
+## Author
+
+Sheetla Verma
