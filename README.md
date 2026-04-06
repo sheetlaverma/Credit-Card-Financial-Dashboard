@@ -36,11 +36,3 @@ The project combines transaction data with customer data to build a financial vi
 2. Load the CSV files into your database or BI environment.
 3. Use the prepared dataset to build visuals and performance summaries.
 4. Compare your outputs with the PDF reports included in the repository.
-
-## Project Notes
-
-This repository currently focuses on the data inputs and report artifacts behind the dashboard. If you want to extend it, useful additions would be the Power BI source file, dashboard screenshots, a data dictionary, or a short explanation of the metrics used.
-
-## Author
-
-Sheetla Verma
